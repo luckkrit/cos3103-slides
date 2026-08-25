@@ -1,3 +1,11 @@
+---
+layout: section
+---
+
+# DB Constraints
+
+---
+
 ```sql {monaco-run} {autorun:false}
 -- db: noaction
 CREATE TABLE IF NOT EXISTS Department(
