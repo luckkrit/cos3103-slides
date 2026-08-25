@@ -1,0 +1,19 @@
+{
+  "name": "cos3103-slides",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export",
+    "cos3103": "slidev cos3103.md"
+  },
+  "dependencies": {
+    "@electric-sql/pglite": "^0.5.7",
+    "@electric-sql/pglite-repl": "^0.4.7",
+    "@slidev/cli": "^52.19.1",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "vue": "^3.5.33"
+  }
+}
