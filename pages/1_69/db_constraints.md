@@ -6,6 +6,8 @@ layout: section
 
 ---
 
+## No action
+
 ```sql {monaco-run} {autorun:false}
 -- db: noaction
 CREATE TABLE IF NOT EXISTS Department(
@@ -61,6 +63,8 @@ UPDATE Department SET Id = 40 WHERE Id = 30;
 
 ---
 
+## Cascade
+
 ```sql {monaco-run} {autorun:false}
 -- db: noaction
 CREATE TABLE department ( id INT PRIMARY KEY,  name VARCHAR(50) ); 
@@ -107,6 +111,8 @@ SELECT * FROM Employees;
 ```
 
 ---
+
+## Set Null
 
 ```sql {monaco-run} {autorun:false}
 -- db: noaction
